@@ -6,7 +6,7 @@ import Divider from "./divider";
 function NavBar() {
   return (
     <div className="w-screen fixed top:0 z-10">
-      <nav className="py-6 px-6 flex justify-between items-center bg-[#232432] text-white">
+      <nav className="py-6 px-6 flex justify-between items-center bg-black-200 text-white">
         <Link href="/" className="flex gap-4">
           <Image
             className="dark:invert"
