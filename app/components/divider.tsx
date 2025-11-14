@@ -3,11 +3,16 @@ interface DividerProps {
   color2?: string;
 }
 
-function Divider({color1, color2}: DividerProps) {
+function Divider({ color1, color2 }: DividerProps) {
   if (color2 == undefined) {
-    return <div className="h-4 w-full" style={{backgroundColor: color1}}></div>
+    return <div className="h-4 w-full" style={{ backgroundColor: color1 }}></div>
   }
-  return <><div className="h-2 w-full" style={{backgroundColor: color1}}></div><div className="h-2" style={{backgroundColor: color2}}></div></>
+  return (
+    <div>
+      <div className="h-2 w-full" style={{ backgroundColor: color1 }}></div>
+      <div className="h-2 w-full" style={{ backgroundColor: color2 }}></div>
+    </div>
+  );
 }
 
 export default Divider;
