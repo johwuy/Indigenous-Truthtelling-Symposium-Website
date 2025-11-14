@@ -1,65 +1,57 @@
 import Image from "next/image";
+import LabeledImage from "./components/labeled-image";
+import Divider from "./components/divider";
+import RefaatAlareer from "./components/refaat-alareer";
+import WeshoyotAlvitre from "./components/weshoyot-alvitre";
+import MonaKadah from "./components/mona-kadah";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="text-center flex flex-col min-h-screen bg-background items-center">
+      <p className=" m-30 mt-42 text-3xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
+      <div className="flex w-full justify-around mb-20">
+        <LabeledImage caption="Poppies in Palestine Series by Monah Kadah">
+          <Image
+            src="/image3.png"
+            alt="Poppies in Palestine Series by Monah Kadah"
+            width={727}
+            height={549}
+            className="w-[727px] h-[549px] object-cover" // Image maintains same aspect ratio.
+          />
+        </LabeledImage>
+        <LabeledImage caption="Blossoming Under Seige by Mona Kadah">
+          <Image
+            src="/image2.webp"
+            alt="Blossoming Under Seige by Mona Kadah"
+            width={727}
+            height={549}
+            className="w-[727px] h-[549px] object-cover"
+          />
+        </LabeledImage>
+      </div>
+      <h2 className="text-green-300 text-5xl/relaxed italic mb-10">About the Indigenous Truthtelling Project</h2>
+      <Divider color1="#7B9F49"></Divider>
+      <div className="my-25 flex flex-col gap-10 text-left text-creme text-2xl/relaxed mx-30">
+        <p>
+          Indigenous Truthtelling Project brings together past and ongoing legacies of resistance to colonialism and a commitment to indigenous knowledge keepers.
+        </p>
+        <p>
+          This project seeks to educate about indigenous resistance movements that may be separated by language and geography, but are united in their struggle in the face of colonial oppression, ethnic cleansing, genocide, scholasticide and other expressions of systemic racism.
+        </p>
+        <p>
+          We have created sites of engagement for the public to use, to commemorate, honor, memorialize and mourn our heroic martyrs: journalists, educators, writers and poets.
+        </p>
+        <p>
+          We honor their memory through various forms of creative expression, recognizing the ongoing struggles of indigenous people around the world, including indigenous residents of Turtle Island and the Palestinian shatat, diaspora, as well as their co-strugglers.
+        </p>
+        <p>
+          We hope that teachers, educators, students, laity, community members and people of conscience will share and educate others with these artistic pieces, poems and mosaics.
+        </p>
+      </div>
+      <Divider color1="#7B9F49"></Divider>
+      <MonaKadah />
+      <WeshoyotAlvitre />
+      <RefaatAlareer />
+    </main>
   );
 }
