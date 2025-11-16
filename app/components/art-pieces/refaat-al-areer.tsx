@@ -12,10 +12,10 @@ function RefaatAlAreer () {
       </div>
       <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
         <Image
-          src="/image3.png"
-          alt="Poppies in Palestine Series by Monah Kadah"
-          width={727}
-          height={549}
+          src="/refaat1.png"
+          alt="Refaat Al Areer"
+          width={1256}
+          height={736}
         />
       </DownloadImage>
     </div>
