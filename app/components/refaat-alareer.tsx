@@ -13,7 +13,7 @@ function RefaatAlareer() {
 
   return (
     <div className="mb-30">
-      <p className="mb-15 mx-10 md:mx-30 md:mb-20 text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</p>
+      <p className="my-10 mx-10 md:mx-30 md:mb-20 text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</p>
       <div className="mx-10 md:mx-30 mb-10 md:mb-20">
         <Paragraphs paragraphs={refaatParagraphs} />
       </div>

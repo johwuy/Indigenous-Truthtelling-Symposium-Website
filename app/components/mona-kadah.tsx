@@ -8,7 +8,7 @@ function MonaKadah() {
   ];
 
   return (
-    <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-15">
+    <div className="flex flex-col mx-10 md:mx-30 md:mt-30 mt-10">
       <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
         <div className="relative inline-block">
           <div className="hidden md:block absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-yellow-300" />
@@ -32,7 +32,7 @@ function MonaKadah() {
           </div>
         </div>
       </div>
-      <div className="md:mb-20">
+      <div className="mb-10 md:mb-20">
         <Paragraphs paragraphs={paragraphs} />
       </div>
     </div >
