@@ -8,7 +8,7 @@ import MonaKadah from "./components/mona-kadah";
 export default function Home() {
   return (
     <main className="text-center flex flex-col min-h-screen bg-background items-center">
-      <p className=" m-30 mt-42 text-3xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
+      <p className="m-15 mt-30 pt-12 md:m-30 mt:mt-30 md:mt-24 md:pt-24 text-3xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
       <div className="flex w-full justify-around mb-20">
         <LabeledImage caption="Poppies in Palestine Series by Monah Kadah">
           <Image
