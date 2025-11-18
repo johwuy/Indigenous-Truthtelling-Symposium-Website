@@ -15,30 +15,29 @@ export default function Home() {
 
   return (
     <main className="text-center flex flex-col min-h-screen bg-background items-center pt-32 md:pt-36">
-        <LabeledImage caption="Blooming Under Siege by Mona Kadah">
-          <Image
-            src="/image2.webp"
-            alt="Blooming Under Siege by Mona Kadah"
-            width={727}
-            height={549}
-          />
-        </LabeledImage>
-        <div className="mx-10 md:mx-15 my-15 md:my-20">
-          <h2 className="text-yellow-300 italic text-4xl/relaxed mb-10 md:text-7xl/relaxed">Indigenous Truthtelling Project</h2>
-          <p className="text-creme text-xl/relaxed font-semibold">Grounded in a commitment to Indigenous knowledge keeping, our project brings together movements in solidarity against colonial oppression, ethnic cleansing, scholasticide, and genocide. Engaging both virtual and physical landscapes, our project honors and memorializes Palestinian and Indigenous knowledge keepers – journalists, educators, writers, culture workers, and poets – those resisting and martyred in their Indigenous homelands.</p>
-        </div>
-        <LabeledImage caption="Poppies in Palestine, a series, by Monah Kadah">
-          <Image
-            src="/image4.png"
-            alt="Poppies in Palestine, a series, by Monah Kadah"
-            width={722}
-            height={604}
-          />
-        </LabeledImage>
+      <LabeledImage caption="Blooming Under Siege by Mona Kadah">
+        <Image
+          src="/image2.webp"
+          alt="Blooming Under Siege by Mona Kadah"
+          width={727}
+          height={549}
+        />
+      </LabeledImage>
+      <div className="mx-10 md:mx-15 my-15 md:my-20">
+        <h2 className="text-yellow-300 italic text-4xl/relaxed mb-10 md:text-7xl/relaxed">Indigenous Truthtelling Project</h2>
+        <p className="text-creme text-xl/relaxed font-semibold">Grounded in a commitment to Indigenous knowledge keeping, our project brings together movements in solidarity against colonial oppression, ethnic cleansing, scholasticide, and genocide. Engaging both virtual and physical landscapes, our project honors and memorializes Palestinian and Indigenous knowledge keepers – journalists, educators, writers, culture workers, and poets – those resisting and martyred in their Indigenous homelands.</p>
       </div>
-      <h2 className="text-green-300 text-3xl/relaxed md:text-6xl/relaxed italic m-10 md:mx-30">About the Indigenous Truthtelling Project</h2>
+      <LabeledImage caption="Poppies in Palestine, a series, by Monah Kadah">
+        <Image
+          src="/image4.png"
+          alt="Poppies in Palestine, a series, by Monah Kadah"
+          width={722}
+          height={604}
+        />
+      </LabeledImage>
+      <h3 className="text-green-300 text-4xl/relaxed md:text-6xl/relaxed italic my-10 mx-5 md:mx-30 mt-20 md:mt-30">About the Indigenous Truthtelling Project</h3>
       <Divider color1="#7B9F49"></Divider>
-      <div className="my-12 md:my-24 mx-10 md:mx-30">
+      <div className="my-10 md:my-15 mx-10 md:mx-20">
         <Paragraphs paragraphs={paragraphs}></Paragraphs>
       </div>
       <Divider color1="#7B9F49"></Divider>
