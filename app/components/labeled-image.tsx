@@ -6,7 +6,7 @@ interface LabeledImageProps {
 function LabeledImage({ children, caption }: LabeledImageProps) {
   return (
     <div className="flex flex-col gap-2">
-      <div>
+      <div className="border-creme border-7">
         {children}
       </div>
       <p className="text-creme text-lg font-light">{caption}</p>
