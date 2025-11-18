@@ -9,7 +9,7 @@ function ShireenAbuAkleh() {
   ];
   return (
     <ArtPieces name={"Shireen Abu Akleh"} paragraphs={paragraphs}>
-      <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="shireen1.jpg" downloadPath="/shireen/raw-shireen1.jpg">
         <Image
           src="/shireen/shireen1.png"
           alt="Shireen Abu Akleh"
@@ -17,7 +17,7 @@ function ShireenAbuAkleh() {
           height={1086}
         />
       </DownloadImage>
-      <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="shireen2.jpg" downloadPath="/shireen/raw-shireen2.jpg">
         <Image
           src="/shireen/shireen2.png"
           alt="Shireen Abu Akleh"
@@ -25,7 +25,7 @@ function ShireenAbuAkleh() {
           height={1232}
         />
       </DownloadImage>
-      <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="shireen3.jpg" downloadPath="/shireen/raw-shireen3.jpg">
         <Image
           src="/shireen/shireen3.png"
           alt="Shireen Abu Akleh"
@@ -33,7 +33,7 @@ function ShireenAbuAkleh() {
           height={685}
         />
       </DownloadImage>
-      <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="shireen4.jpg" downloadPath="/shireen/raw-shireen4.jpg">
         <Image
           src="/shireen/shireen4.png"
           alt="Shireen Abu Akleh"
