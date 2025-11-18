@@ -1,24 +1,22 @@
 import Image from "next/image";
 import DownloadImage from "../download-image";
+import ArtPieces from "./art-pieces";
 
-function RefaatAlAreer () {
+function RefaatAlAreer() {
+  const paragraphs = [
+    "Thousands of photographs of martyred educators, writers, artists and poets in Gaza murdered in the ongoing Israeli scholasticide comprise the image of martyred Shakespear scholar, writer, and poet, Dr Refaat Alareer, whose portrait has been reproduced with the permission of his wife."
+  ];
   return (
-    <div className="flex flex-col mb-16">
-      <h3 className="italic font-extrabold text-center text-7xl text-creme mb-6">Refaat Al Areer </h3>
-      <div className="flex flex-col gap-3 mb-12">
-        <p className="text-center text-3xl/relaxed text-creme">This art piece is of Gazan educator, professor, poet and Shakespeare scholar, Refaat Al Areer, who was martyred in the genocide.</p>
-        <p className="text-center text-3xl/relaxed text-creme">This piece is comprised of hundreds of different artists, educators, and professors who were also martyred. </p>
-
-      </div>
+    <ArtPieces name={"Refaat Al Areer"} paragraphs={paragraphs}>
       <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
         <Image
-          src="/refaat1.png"
+          src="/image1.png"
           alt="Refaat Al Areer"
           width={1256}
           height={736}
         />
       </DownloadImage>
-    </div>
+    </ArtPieces>
   )
 }
 
