@@ -6,14 +6,21 @@ import Button from "./Button";
 interface DownloadImageProps {
   children: JSX.Element;
   fileName: string;
-  downloadLink: string;
+  downloadLink?: string;
+  downloadPath?: string;
 }
 
-function DownloadImage({ children, downloadLink, fileName }: DownloadImageProps) {
+function DownloadImage({ children, downloadLink, downloadPath, fileName }: DownloadImageProps) {
   async function handleClick() {
-    const response = await fetch(`/api/download?url=${downloadLink}&fileName=${fileName}`);
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
+    let url = "";
+    if (downloadLink) {
+      const response = await fetch(`/api/download?url=${downloadLink}&fileName=${fileName}`);
+      const blob = await response.blob();
+      url = window.URL.createObjectURL(blob);
+    } else if (downloadPath) {
+      url = downloadPath;
+    }
+    
     const a = document.createElement('a');
     a.href = url;
     a.download = fileName;
