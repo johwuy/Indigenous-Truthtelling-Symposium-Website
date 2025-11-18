@@ -9,41 +9,41 @@ function BisanOwda() {
 
   return (
     <ArtPieces name={"Bisan Owda"} paragraphs={paragraphs}>
-      <DownloadImage fileName="bisan1.png" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="bisan1.jpg" downloadPath="/bisan/raw-bisan1.jpg">
         <Image
-          src="/bisan1.png"
+          src="/bisan/bisan1.png"
           alt="Bisan Owda"
           width={1256}
           height={935}
         />
       </DownloadImage>
-      <DownloadImage fileName="bisan2.png" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="bisan2.jpg" downloadPath="/bisan/raw-bisan2.jpg">
         <Image
-          src="/bisan2.png"
+          src="/bisan/bisan2.png"
           alt="Bisan Owda"
           width={1256}
           height={712}
         />
       </DownloadImage>
-      <DownloadImage fileName="bisan3.png" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="bisan3.jpg" downloadPath="/bisan/raw-bisan3.jpg">
         <Image
-          src="/bisan3.png"
+          src="/bisan/bisan3.png"
           alt="Bisan Owda"
           width={1256}
           height={951}
         />
       </DownloadImage>
-      <DownloadImage fileName="bisan4.png" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="bisan4.jpg" downloadPath="/bisan/raw-bisan4.jpg">
         <Image
-          src="/bisan4.png"
+          src="/bisan/bisan4.png"
           alt="Bisan Owda"
           width={874}
           height={1152}
         />
       </DownloadImage>
-      <DownloadImage fileName="bisan5.png" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="bisan5.jpg" downloadPath="/bisan/raw-bisan5.jpg">
         <Image
-          src="/bisan5.png"
+          src="/bisan/bisan5.png"
           alt="Bisan Owda"
           width={1256}
           height={801}
