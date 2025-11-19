@@ -1,7 +1,7 @@
 export const Pages = [
     { 
         name: "About the Art",
-        href: "/about"
+        href: "/"
     },
     {
         name: "Art Mosaics",
