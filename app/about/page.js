@@ -4,7 +4,7 @@ import TeamBox from "../components/TeamBox";
 const Page = () => {
 
   return (
-    <div className = "flex flex-col w-screen h-1/2 items-center justify-center gap-16 pt-40 pb-40">
+    <div className = "flex flex-col w-screen h-1/2 items-center justify-center gap-16 pb-10">
         <div className = "text-white text-6xl italic sm:text-8xl ">
             About Us
         </div>
