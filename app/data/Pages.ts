@@ -34,10 +34,6 @@ export const Pages: Page[] = [
         ]
     },
     {
-        name: "Indigenous Genocide",
-        href: "/"
-    },
-    {
         name: "About Us",
         href: "/about"
 
@@ -45,11 +41,6 @@ export const Pages: Page[] = [
     {
         name: "Get Involved",
         href: "/howToHelp"
-
-    },
-    {
-        name: "Resources",
-        href: "/"
 
     },
     {
