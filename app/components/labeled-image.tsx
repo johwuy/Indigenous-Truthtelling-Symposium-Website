@@ -9,7 +9,7 @@ function LabeledImage({ children, caption }: LabeledImageProps) {
       <div className="border-creme border-7">
         {children}
       </div>
-      <p className="text-creme text-lg font-light">{caption}</p>
+      <p className="text-creme text-sm md:text-lg font-light">{caption}</p>
     </div>
   );
 }

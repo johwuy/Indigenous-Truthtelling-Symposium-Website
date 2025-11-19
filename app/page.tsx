@@ -14,7 +14,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="text-center flex flex-col min-h-screen bg-background items-center pt-32 md:pt-36">
+    <main className="text-center flex flex-col min-h-screen bg-background items-center">
       <LabeledImage caption="Blooming Under Siege by Mona Kadah">
         <Image
           src="/image2.webp"
