@@ -3,6 +3,7 @@
 import { useForm } from 'react-hook-form';
 import Button from '../components/Button';
 import styles from './form.module.css';
+import { useState } from 'react';
 
 export interface ContactUsPayload {
   subject: string;
@@ -12,10 +13,10 @@ export interface ContactUsPayload {
 }
 
 function ContactUs() {
+  const [submitted, setSubmitted] = useState(false);
   const { register, handleSubmit } = useForm<ContactUsPayload>();
 
   async function onSubmit(data: ContactUsPayload) {
-    console.log(data)
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
@@ -27,7 +28,8 @@ function ContactUs() {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-      console.log("success");
+      
+      setSubmitted(true);
     } catch (error) {
       console.error(error);
     }
@@ -55,8 +57,8 @@ function ContactUs() {
             <label htmlFor="your_message" className={styles.label}>Your Message:</label>
             <textarea {...register("message", { required: true, maxLength: 500 })} className={styles.text} id="your_message" />
           </div>
-          <button type="submit" className='cursor-pointer w-fit m-auto'>
-            <Button borderColor={'border-[#F1BE4B]'} text={'Submit'}></Button>
+          <button type="submit" className='cursor-pointer w-fit m-auto' disabled={submitted}>
+            <Button borderColor={!submitted ? 'border-[#F1BE4B]' : 'border-[#7B9F49]'} text={!submitted ? 'Submit' : 'Success'}></Button>
           </button>
         </form>
       </div>
