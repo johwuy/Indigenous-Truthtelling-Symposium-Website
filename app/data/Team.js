@@ -5,16 +5,41 @@ export const Team = [
     },
     {
         name: "Mark Minch De Leon",
-        description: "Mark Minch De Leon (he/him) is a member of the Susanville Indian Rancheria and one of the founding members of the California Indian Studies and Scholars Association (CISSA) and California Indians for Palestinian Liberation. He is currently Associate Professor of Indigenous Studies in the Department of English at UCR and co-Director of the California Center for Native Nations. Next fall he will join the Department of Film and Media at UC Berkeley. He is the author of Indigenous Inhumanities: California Indian Studies After the Apocalypse.",
+        description: (
+        <>
+            Mark Minch De Leon (he/him) is a member of the Susanville Indian Rancheria and one of the founding members of the California Indian Studies and Scholars Association (CISSA) and California Indians for Palestinian Liberation. He is currently Associate Professor of Indigenous Studies in the Department of English at UCR and co-Director of the California Center for Native Nations. Next fall he will join the Department of Film and Media at UC Berkeley. He is the author of <em>Indigenous Inhumanities: California Indian Studies After the Apocalypse.</em>
+        </>
+        ),
     },
     {
         name: "Rana A. Sharif",
-        description: "Rana A. Sharif (she/her/هي) is a Los Angeles-born, interdisciplinary scholar, educator, and activist. Currently, she is the UC President’s Postdoctoral Fellow at the University of California, Berkeley in the Department of Ethnic Studies. Next fall, she will be joining as an Assistant Professor in the Department of Media and Cultural Studies at UC Riverside. Her research is located at the intersection of the humanities and emerging technologies, including new and digital media. Her current book project advances a theory of Palestinian digital poetics illustrating how technomediated platforms invite a decolonial feminist literary reading practice. This practice in reading is grounded in indigenous survivance, refusal, and narration through the mode and medium of the digitally enabled and communal archives. She is a member of the Palestinian Feminist Collective and serves on the board of the Arab American Civic Council. She also co-hosts and produces shows and podcasts as part of Pacifica Radio’s Radio Intifada on KPFK.",
+        description: (
+        <>
+            Rana A. Sharif (she/her/هي) is a Los Angeles-born, interdisciplinary scholar, educator, and activist. Currently, she is the UC President’s Postdoctoral Fellow at the University of California, Berkeley in the Department of Ethnic Studies. Next fall, she will be joining as an Assistant Professor in the Department of Media and Cultural Studies at UC Riverside. Her research is located at the intersection of the humanities and emerging technologies, including new and digital media. Her current book project advances a theory of Palestinian digital poetics illustrating how technomediated platforms invite a decolonial feminist literary reading practice. This practice in reading is grounded in indigenous survivance, refusal, and narration through the mode and medium of the digitally enabled and communal archives. She is a member of the Palestinian Feminist Collective and serves on the board of the Arab American Civic Council. She also co-hosts and produces shows and podcasts as part of Pacifica Radio’s{" "}
+            <a
+            href="https://open.spotify.com/show/3YIefE3bud2ZIxtxgZfAGR?si=IcyD6XlOSN64Pz-aInTvoQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <u>Radio Intifada</u>
+            </a>{" "}
+            on KPFK.
+        </>
+        ),
     },
     {
         name: "Setsu Shigematsu",
-        description: "*Setsu Shigematsu:* is a feminist-mother and professor in the department of Media and Cultural Studies at the University of California, Riverside, author of Scream from the Shadows: The Women’s Liberation Movement in Japan and co-editor of Militarized Currents: Towards a Decolonized Future in Asia and the Pacific. As an abolitionist filmmaker, Setsu directed Ghosts of Adelanto and the Rise of Abolish ICE (forthcoming 2025/2026) and Visions of Abolition: From Critical Resistance to A New Way of Life (www.visionsofabolition.org). Her current research and film project documents the history of Japanese solidarity with Palestine, focusing on Fusako Shigenobu, revolutionary and former political prisoner.",
-    },
+        description: (
+        <>
+            Setsu Shigematsu: is a feminist-mother and professor in the department of Media and Cultural Studies at the University of California, Riverside, author of <em>Scream from the Shadows: The Women’s Liberation Movement</em> in Japan and co-editor of <em>Militarized Currents: Towards a Decolonized Future in Asia and the Pacific</em>. As an abolitionist filmmaker, Setsu directed <em>Ghosts of Adelanto and the Rise of Abolish ICE</em> (forthcoming 2025/2026) and
+            Visions of Abolition: From Critical Resistance to A New Way of Life{" "}
+            <a href="https://www.visionsofabolition.org" target="_blank" rel="noopener noreferrer">
+                <u>(www.visionsofabolition.org)</u>
+            </a>
+            . Her current research and film project documents the history of Japanese solidarity with Palestine, focusing on Fusako Shigenobu, revolutionary and former political prisoner.
+        </>
+        ),
+    },  
     {
         name: "Jenna Wilson",
         description: "Jenna Wilson is PhD student in the English Department at UC Riverside with a Master’s in Gender Studies from San Diego State University. Grounded in critical prison studies and speculative archive studies, her work explores contemporary U.S. literary and cultural productions that imagine carceral abolition. More specifically, she is interested in texts that destabilize the temporal schemas of Western capitalist, colonial order and disengage with the logics of the state to render themselves ungovernable. Jenna’s work challenges the rigid boundaries between carceral and non-carceral spaces, illuminating the diffuse geographies of the carceral state and the insurgent practices that emerge in its cracks. She pays particular attention to texts, objects, and  practices that encourage a productive and speculative questioning of the archive. Jenna is also a member of several abolitionist collectives and organizations in southern California that work toward collective liberation, including Graduate Students for Justice in Palestine at UCR. Jenna was the Artistic Project Director who generated the mosaics alongside several Palestinian UCR Alumni and volunteers. ",

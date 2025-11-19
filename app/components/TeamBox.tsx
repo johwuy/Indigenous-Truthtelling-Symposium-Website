@@ -9,7 +9,7 @@ const TeamBox = () => {
                         {member.name}
                     </div>
                     <div className= "p-4 border-4 border-t-2 border-yellow-300 bg-black-200 w-4/6 ">
-                        {member.description}
+                        <p>{member.description}</p>
                     </div>
                 </div>
             ))}
